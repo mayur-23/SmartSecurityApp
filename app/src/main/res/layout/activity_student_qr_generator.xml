@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".student_qr_generator"
+    android:orientation="vertical"
+    android:padding="16dp"
+    android:gravity="center_horizontal"
+    android:background="@drawable/qrgenerator_bg">
+
+    <EditText
+        android:id="@+id/et_input"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:hint="Enter PRN Number"
+        android:padding="12dp"
+        android:textColor="#FEA928"
+        android:textSize="25sp" />
+
+    <Button
+        android:id="@+id/btn_generate"
+        android:layout_width="240dp"
+        android:layout_height="62dp"
+        android:layout_marginTop="16dp"
+        android:text="Generate QR"
+        android:textAllCaps="false"
+        android:textColor="#253B75"
+        android:textSize="30sp"
+        app:backgroundTint="#FEA928"
+        app:cornerRadius="?attr/actionBarSize" />
+
+
+    <ImageView
+        android:layout_width="300dp"
+        android:layout_height="300dp"
+        android:id="@+id/img_output"
+        android:scaleType="fitCenter"
+        android:adjustViewBounds="true"/>
+
+
+
+</LinearLayout>

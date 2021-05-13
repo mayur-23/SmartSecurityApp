@@ -1,0 +1,478 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/qrgenerator_bg">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+      <RelativeLayout
+          android:layout_width="match_parent"
+          android:layout_height="match_parent"
+          >
+
+          <Button
+              android:id="@+id/btn_logout"
+              android:layout_width="50dp"
+              android:layout_height="50dp"
+              android:layout_alignParentStart="true"
+              android:layout_alignParentLeft="true"
+              android:layout_alignParentEnd="true"
+              android:layout_alignParentRight="true"
+              android:layout_marginStart="104dp"
+              android:layout_marginLeft="104dp"
+              android:layout_marginEnd="107dp"
+              android:layout_marginRight="107dp"
+            android:text="logout"/>
+
+
+      <!--    <ImageButton
+              android:id="@+id/btn_logout"
+              android:layout_width="60dp"
+              android:layout_height="60dp"
+              android:layout_alignParentStart="true"
+              android:layout_alignParentLeft="true"
+              android:layout_alignParentTop="true"
+              android:layout_alignParentRight="true"
+              android:layout_marginStart="319dp"
+              android:layout_marginLeft="319dp"
+              android:layout_marginTop="8dp"
+              android:layout_marginRight="32dp"
+              android:src="@drawable/ic_logout_icon"
+              tools:src="@drawable/ic_logout_icon" />
+              -->
+
+
+      </RelativeLayout>
+
+
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="203dp">
+            <ImageView
+                android:id="@+id/blue_rec1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:src="@drawable/blue_rectangle"
+                android:layout_margin="10dp"
+                />
+
+            <ImageView
+                android:id="@+id/yello_rec1"
+                android:layout_width="180dp"
+                android:layout_height="137dp"
+                android:layout_alignStart="@+id/blue_rec1"
+                android:layout_alignLeft="@+id/blue_rec1"
+                android:layout_alignTop="@+id/blue_rec1"
+                android:layout_alignEnd="@+id/blue_rec1"
+                android:layout_alignRight="@+id/blue_rec1"
+                android:layout_marginStart="103dp"
+                android:layout_marginLeft="103dp"
+                android:layout_marginTop="14dp"
+                android:layout_marginEnd="108dp"
+                android:layout_marginRight="108dp"
+                android:src="@drawable/yellw_rectangle" />
+
+            <ImageView
+                android:id="@+id/img_gate"
+                android:layout_width="120dp"
+                android:layout_height="120dp"
+                android:layout_alignStart="@+id/blue_rec1"
+                android:layout_alignLeft="@+id/blue_rec1"
+                android:layout_alignTop="@+id/blue_rec1"
+                android:layout_alignEnd="@+id/blue_rec1"
+                android:layout_alignRight="@+id/blue_rec1"
+                android:layout_alignParentBottom="true"
+                android:layout_marginStart="133dp"
+                android:layout_marginLeft="133dp"
+                android:layout_marginTop="22dp"
+                android:layout_marginEnd="138dp"
+                android:layout_marginRight="138dp"
+                android:layout_marginBottom="51dp"
+                android:src="@drawable/gate" />
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignStart="@+id/blue_rec1"
+                android:layout_alignLeft="@+id/blue_rec1"
+                android:layout_alignEnd="@+id/blue_rec1"
+                android:layout_alignRight="@+id/blue_rec1"
+                android:layout_alignBottom="@+id/blue_rec1"
+                android:layout_marginStart="114dp"
+                android:layout_marginLeft="114dp"
+                android:layout_marginEnd="113dp"
+                android:layout_marginRight="113dp"
+                android:layout_marginBottom="2dp"
+                android:src="@drawable/collegegate1" />
+
+            <!--    <TextView
+                    android:id="@+id/txt_CollegeGate"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignStart="@+id/blue_rec1"
+                    android:layout_alignLeft="@+id/blue_rec1"
+                    android:layout_alignTop="@+id/blue_rec1"
+                    android:layout_alignEnd="@+id/blue_rec1"
+                    android:layout_alignRight="@+id/blue_rec1"
+                    android:layout_alignBottom="@+id/blue_rec1"
+                    android:layout_marginStart="120dp"
+                    android:layout_marginLeft="110dp"
+                    android:layout_marginTop="146dp"
+                    android:layout_marginEnd="80dp"
+                    android:layout_marginRight="80dp"
+                    android:layout_marginBottom="6dp"
+                    android:text="College Gate"
+                    android:textColor="#000000"
+                    android:textSize="23sp"
+                    android:textStyle="bold" />
+    -->
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="203dp">
+
+            <ImageView
+                android:id="@+id/img_hostel"
+                android:layout_width="120dp"
+                android:layout_height="120dp"
+                android:layout_alignStart="@+id/blue_rec2"
+                android:layout_alignLeft="@+id/blue_rec2"
+                android:layout_alignTop="@+id/blue_rec2"
+                android:layout_alignEnd="@+id/blue_rec2"
+                android:layout_alignRight="@+id/blue_rec2"
+                android:layout_alignParentBottom="true"
+                android:layout_marginStart="133dp"
+                android:layout_marginLeft="133dp"
+                android:layout_marginTop="22dp"
+                android:layout_marginEnd="138dp"
+                android:layout_marginRight="138dp"
+                android:layout_marginBottom="51dp"
+                android:src="@drawable/hostel" />
+
+            <ImageView
+                android:id="@+id/blue_rec2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:src="@drawable/blue_rectangle"
+                android:layout_margin="10dp"
+                />
+
+            <ImageView
+                android:id="@+id/yello_rec2"
+                android:layout_width="180dp"
+                android:layout_height="137dp"
+                android:layout_alignStart="@+id/blue_rec2"
+                android:layout_alignLeft="@+id/blue_rec2"
+                android:layout_alignTop="@+id/blue_rec2"
+                android:layout_alignEnd="@+id/blue_rec2"
+                android:layout_alignRight="@+id/blue_rec2"
+                android:layout_marginStart="103dp"
+                android:layout_marginLeft="103dp"
+                android:layout_marginTop="14dp"
+                android:layout_marginEnd="108dp"
+                android:layout_marginRight="108dp"
+                android:src="@drawable/yellw_rectangle" />
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/collegehosteltxt"
+                android:layout_alignStart="@+id/blue_rec2"
+                android:layout_alignLeft="@+id/blue_rec2"
+                android:layout_alignEnd="@+id/blue_rec2"
+                android:layout_alignRight="@+id/blue_rec2"
+                android:layout_alignBottom="@+id/blue_rec2"
+                android:layout_marginStart="114dp"
+                android:layout_marginLeft="114dp"
+                android:layout_marginEnd="113dp"
+                android:layout_marginRight="113dp"
+                android:layout_marginBottom="2dp"
+
+                />
+
+
+          <!--  <TextView
+                android:id="@+id/txt_CollegeHostel"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignStart="@+id/blue_rec2"
+                android:layout_alignLeft="@+id/blue_rec2"
+                android:layout_alignTop="@+id/blue_rec2"
+                android:layout_alignEnd="@+id/blue_rec2"
+                android:layout_alignRight="@+id/blue_rec2"
+                android:layout_alignBottom="@+id/blue_rec2"
+                android:layout_marginStart="110dp"
+                android:layout_marginLeft="126dp"
+                android:layout_marginTop="146dp"
+                android:layout_marginEnd="110dp"
+                android:layout_marginRight="1dp"
+                android:layout_marginBottom="6dp"
+                android:text="College Hostel"
+                android:textColor="#000000"
+                android:textSize="23sp"
+                android:textStyle="bold" />
+-->
+        </RelativeLayout>
+
+        <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+            xmlns:app="http://schemas.android.com/apk/res-auto"
+            xmlns:tools="http://schemas.android.com/tools"
+            android:layout_width="match_parent"
+            android:layout_height="203dp">
+            <ImageView
+                android:id="@+id/blue_rec3"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:src="@drawable/blue_rectangle"
+                android:layout_margin="10dp"
+                />
+
+            <ImageView
+                android:id="@+id/yello_rec3"
+                android:layout_width="180dp"
+                android:layout_height="137dp"
+                android:layout_alignStart="@+id/blue_rec3"
+                android:layout_alignLeft="@+id/blue_rec3"
+                android:layout_alignTop="@+id/blue_rec3"
+                android:layout_alignEnd="@+id/blue_rec3"
+                android:layout_alignRight="@+id/blue_rec3"
+                android:layout_marginStart="103dp"
+                android:layout_marginLeft="103dp"
+                android:layout_marginTop="14dp"
+                android:layout_marginEnd="108dp"
+                android:layout_marginRight="108dp"
+                android:src="@drawable/yellw_rectangle" />
+
+            <ImageView
+                android:id="@+id/img_ComputerLab"
+                android:layout_width="120dp"
+                android:layout_height="120dp"
+                android:src="@drawable/computer_lab"
+                android:layout_alignStart="@+id/blue_rec3"
+                android:layout_alignLeft="@+id/blue_rec3"
+                android:layout_alignTop="@+id/blue_rec3"
+                android:layout_alignEnd="@+id/blue_rec3"
+                android:layout_alignRight="@+id/blue_rec3"
+                android:layout_alignParentBottom="true"
+                android:layout_marginStart="133dp"
+                android:layout_marginLeft="133dp"
+                android:layout_marginTop="22dp"
+                android:layout_marginEnd="138dp"
+                android:layout_marginRight="138dp"
+                android:layout_marginBottom="51dp"/>
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignStart="@+id/blue_rec3"
+                android:layout_alignLeft="@+id/blue_rec3"
+                android:layout_alignEnd="@+id/blue_rec3"
+                android:layout_alignRight="@+id/blue_rec3"
+                android:layout_alignBottom="@+id/blue_rec3"
+                android:layout_marginStart="114dp"
+                android:layout_marginLeft="114dp"
+                android:layout_marginEnd="113dp"
+                android:layout_marginRight="113dp"
+                android:layout_marginBottom="2dp"
+                android:src="@drawable/computerlabtxt"
+                />
+
+
+
+
+
+      <!--      <TextView
+                android:id="@+id/txt_ComputerLab"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Computer Lab"
+                android:textSize="28sp"
+                android:layout_toRightOf="@id/img_ComputerLab"
+                android:textStyle="bold"
+                android:textColor="#000000"
+                android:layout_marginTop="50dp"
+                />
+-->
+        </RelativeLayout>
+
+        <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+            xmlns:app="http://schemas.android.com/apk/res-auto"
+            xmlns:tools="http://schemas.android.com/tools"
+            android:layout_width="match_parent"
+            android:layout_height="203dp">
+
+            <ImageView
+                android:id="@+id/blue_rec4"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:src="@drawable/blue_rectangle"
+                android:layout_margin="10dp"
+                />
+
+            <ImageView
+                android:id="@+id/yello_rec4"
+                android:layout_width="180dp"
+                android:layout_height="137dp"
+                android:layout_alignStart="@+id/blue_rec4"
+                android:layout_alignLeft="@+id/blue_rec4"
+                android:layout_alignTop="@+id/blue_rec4"
+                android:layout_alignEnd="@+id/blue_rec4"
+                android:layout_alignRight="@+id/blue_rec4"
+                android:layout_marginStart="103dp"
+                android:layout_marginLeft="103dp"
+                android:layout_marginTop="14dp"
+                android:layout_marginEnd="108dp"
+                android:layout_marginRight="108dp"
+                android:src="@drawable/yellw_rectangle" />
+
+
+            <ImageView
+                android:id="@+id/img_library"
+                android:layout_width="120dp"
+                android:layout_height="120dp"
+                android:src="@drawable/library"
+                android:layout_alignStart="@+id/blue_rec4"
+                android:layout_alignLeft="@+id/blue_rec4"
+                android:layout_alignTop="@+id/blue_rec4"
+                android:layout_alignEnd="@+id/blue_rec4"
+                android:layout_alignRight="@+id/blue_rec4"
+                android:layout_alignParentBottom="true"
+                android:layout_marginStart="133dp"
+                android:layout_marginLeft="133dp"
+                android:layout_marginTop="22dp"
+                android:layout_marginEnd="138dp"
+                android:layout_marginRight="138dp"
+                android:layout_marginBottom="51dp"/>
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignStart="@+id/blue_rec4"
+                android:layout_alignLeft="@+id/blue_rec4"
+                android:layout_alignEnd="@+id/blue_rec4"
+                android:layout_alignRight="@+id/blue_rec4"
+                android:layout_alignBottom="@+id/blue_rec4"
+                android:layout_marginStart="114dp"
+                android:layout_marginLeft="114dp"
+                android:layout_marginEnd="113dp"
+                android:layout_marginRight="113dp"
+                android:layout_marginBottom="2dp"
+                android:src="@drawable/collegelibrarytxt"
+                />
+
+
+
+
+            <!--    <TextView
+                    android:id="@+id/txt_CollegeLibrary"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="College Library"
+                    android:textSize="28sp"
+                    android:layout_toRightOf="@id/img_library"
+                    android:textStyle="bold"
+                    android:textColor="#000000"
+                    android:layout_marginTop="50dp"
+                    />
+
+            -->
+
+        </RelativeLayout>
+
+
+        <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+            xmlns:app="http://schemas.android.com/apk/res-auto"
+            xmlns:tools="http://schemas.android.com/tools"
+            android:layout_width="match_parent"
+            android:layout_height="203dp">
+
+
+
+
+            <ImageView
+                android:id="@+id/blue_rec5"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:src="@drawable/blue_rectangle"
+                android:layout_margin="10dp"
+                />
+
+            <ImageView
+                android:id="@+id/yello_rec5"
+                android:layout_width="180dp"
+                android:layout_height="137dp"
+                android:layout_alignStart="@+id/blue_rec5"
+                android:layout_alignLeft="@+id/blue_rec5"
+                android:layout_alignTop="@+id/blue_rec5"
+                android:layout_alignEnd="@+id/blue_rec5"
+                android:layout_alignRight="@+id/blue_rec5"
+                android:layout_marginStart="103dp"
+                android:layout_marginLeft="103dp"
+                android:layout_marginTop="14dp"
+                android:layout_marginEnd="108dp"
+                android:layout_marginRight="108dp"
+                android:src="@drawable/yellw_rectangle" />
+
+
+            <ImageView
+                android:id="@+id/img_class"
+                android:layout_width="120dp"
+                android:layout_height="120dp"
+                android:src="@drawable/img_class"
+                android:layout_alignStart="@+id/blue_rec5"
+                android:layout_alignLeft="@+id/blue_rec5"
+                android:layout_alignTop="@+id/blue_rec5"
+                android:layout_alignEnd="@+id/blue_rec5"
+                android:layout_alignRight="@+id/blue_rec5"
+                android:layout_alignParentBottom="true"
+                android:layout_marginStart="133dp"
+                android:layout_marginLeft="133dp"
+                android:layout_marginTop="22dp"
+                android:layout_marginEnd="138dp"
+                android:layout_marginRight="138dp"
+                android:layout_marginBottom="51dp"/>
+
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignStart="@+id/blue_rec5"
+                android:layout_alignLeft="@+id/blue_rec5"
+                android:layout_alignEnd="@+id/blue_rec5"
+                android:layout_alignRight="@+id/blue_rec5"
+                android:layout_alignBottom="@+id/blue_rec5"
+                android:layout_marginStart="114dp"
+                android:layout_marginLeft="114dp"
+                android:layout_marginEnd="113dp"
+                android:layout_marginRight="113dp"
+                android:layout_marginBottom="2dp"
+                android:src="@drawable/collegeclassestxt"
+                />
+
+<!--
+            <TextView
+                android:id="@+id/txt_CollegeClass"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="College class"
+                android:textSize="28sp"
+                android:layout_toRightOf="@id/img_class"
+                android:textStyle="bold"
+                android:textColor="#000000"
+                android:layout_marginTop="50dp"
+                />
+-->
+
+        </RelativeLayout>
+
+    </LinearLayout>
+
+</ScrollView>

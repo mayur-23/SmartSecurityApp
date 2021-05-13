@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">Smart Security</string>
+    <string name="dashboard">Dashboard</string>
+    <string name="peofile">Peofile</string>
+    <string name="profile">Profile</string>
+    <string name="about_app">About App</string>
+    <string name="logout">Logout</string>
+    <string name="todo">TODO</string>
+    <string name="navigation_drawer">Navigation Drawer</string>
+    <string name="open">Open</string>
+    <string name="close">Close</string>
+    <string name="register">Register</string>
+</resources>
